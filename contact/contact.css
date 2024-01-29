@@ -1,0 +1,131 @@
+@media screen and(max-width:480px){
+	main{
+			font-size: 24px;
+	}
+
+}
+.wrapper{
+  max-width: 1200px;
+  margin: 0.auto;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+body{
+  max-width: 1200px;
+	font-weight: normal;
+	color: #333333;
+	font-family: sans-serif;
+	font-size: 16px;}
+  .btn___{
+    text-align: right;
+    
+  }
+
+.head_btn{
+  font-size: 25px;
+  width: 150px; 
+  background-color: pink;
+  color: white;
+  border-style: solid;
+  text-align: center;
+  margin-right: 10px;
+  
+}
+.head_btn1{
+  color: wheat;
+  background-color: green;
+  font-size: 25px;
+  width: 150px;
+  text-align: center;
+}
+.list_nav_header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact{
+  text-align: center;
+}
+.item{
+  margin-bottom: 20px;
+  color:black
+}
+.label{
+  float: left;
+  margin-right: 20px;
+  width: 135px;
+}
+.inputs{
+  width: 300px;
+}
+.sec_btn{
+  width: 100%;
+  background-color: darkgray;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.btn{
+  background-color:green;
+  color: white;
+  padding-top: 10px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+}
+.box_btn{
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  background-color: white;
+  margin:30px;
+  text-align: center;
+}
+.btn_{
+  color: white;
+  background-color: red;
+}
+.box_btn1{
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  background-color: white;
+  margin:30px
+}
+.btn__{
+  color: white;
+  background-color: green;
+}
+footer{
+  text-align: center;
+  margin-top: 80px;
+}
+.aewea_nav_header{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.list{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  padding-bottom:30px;
+  padding-top: 10px;
+}
+
+.btn___{
+  color: green;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  border: double;
+  padding-bottom:30px;
+  padding-top: 10px;
+}
