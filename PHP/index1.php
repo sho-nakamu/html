@@ -10,18 +10,19 @@
 
 <?php
 $message ="今日の日付:".date('Y/m/d');
-define('TITLE','定数とは';
+define('TITLE','定数とは');
 
-$a = array('田中','100','OK',);
+$a = array('田中','100','OK');
 $b = TITLE ['中田','55','NG'];
 ?>
 
   <h1>  Hello PHP  world</h1>
 
-  <p><?php  echo $message ?></p>
-  <p><?= TITLE;?></p>
-  <?php print_r($a);?><br> 
-</p>
+  <p><?= echo $message ?></p>
+  <p><?= TITLE; ?></p>
+  <p>
+    <?php print_r($a);?><br> 
+  </p>
 
 </body>
 </html>
