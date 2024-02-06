@@ -12,31 +12,61 @@
 
      <ul>
       <li>
-      </ul><?php
+      <?php
       $weeks([0]);
       ?> 
       </li>
-     </ul><?php
-      print($weeks[0]);
-      ?>
+     </ul>
+     <ul>
+      <li>
       <?php
-      print($weeks[1]);
+      $weeks([1]);
+      ?> 
+      </li>
+     </ul>
+     <ul>
+      <li>
+      <?php
+      $weeks([2]);
       ?>
-       <?php
-      print($weeks[2]);
+      </li>
+     </ul>
+     <ul>
+      <li>
+      <?php
+      $weeks([3]);
       ?>
-       <?php
-      print($weeks[3]);
+      </li>
+     </ul>
+     <ul>
+      <li>
+      <?php
+      $weeks([4]);
       ?>
-       <?php
-      print($weeks[4]);
+      </li>
+     </ul>
+     <ul>
+      <li>
+      <?php
+      $weeks([5]);
       ?>
-       <?php
-      print($weeks[5]);
+      </li>
+     </ul>
+        <ul>
+          <li>
+          <?php
+      $weeks([6]);
       ?>
-       <?php
-      print($weeks[6]);
+          </li>
+        </ul>
+       <ul>
+        <li>
+        <?php
+      $weeks([7]);
       ?>
+        </li>
+       </ul>
+       
 
    
  
