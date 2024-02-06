@@ -9,20 +9,21 @@
 
 
 <?php
-$message ="今日の日付:".date('Y/m/d');
-define('TITLE','定数とは');
+define('TITLE','Hello PHP world');
+$message ='演算子とは';
+$a = 3
+$b =2
 
-$a = array('田中','100','OK');
-$b = TITLE ['中田','55','NG'];
 ?>
-
-  <h1>  Hello PHP  world</h1>
-
   <p><?= echo $message ?></p>
-  <p><?= TITLE; ?></p>
-  <p>
-    <?php print_r($a);?><br> 
-  </p>
+  <p><?= TITLE; ?>
+  <?php
+  echo $a +$b; '<br>';
+  echo $a +$b; '<br>';
+  echo $a +$b; '<br>';
+  echo $a +$b; '<br>';
+  echo $a +$b; '<br>';
+  ?>
 
 </body>
 </html>

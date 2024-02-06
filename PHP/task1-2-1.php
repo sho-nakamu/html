@@ -6,15 +6,18 @@
   <title>PHP演習</title>
 </head>
 <body>
-<?php
-echo '現在消費税は10%です。<br>'
- ?>
-  <?php
-  echo '鉛筆が100円で税込110円です。<br>'
-?>
+<?php $money ='10%';?>
+<?php $mone ='100円';?>
+<?php $monee ='110円';?>
+<?php $monn ='200円';?>
+<?php $moom ='220円';?>
 
-<?php
-echo '消しゴムが200円で 税込み220円です'
-?>
+
+
+  
+<?="現在、消費税は{$money}です"; ?><br>
+<?="鉛筆が{$mone}で税込{$monee}です";?><br>
+<?="消しゴムが{$monn}で税込み{$moom}です";?>
+
 </body>
 </html>

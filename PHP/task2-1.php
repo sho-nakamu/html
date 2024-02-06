@@ -9,63 +9,15 @@
   <?php
   $weeks = array('日曜日','月曜日','火曜日','水曜日','木曜日','金曜日','土曜日');
   ?>
-
-     <ul>
-      <li>
-      <?php
-      $weeks([0]);
-      ?> 
-      </li>
-     </ul>
-     <ul>
-      <li>
-      <?php
-      $weeks([1]);
-      ?> 
-      </li>
-     </ul>
-     <ul>
-      <li>
-      <?php
-      $weeks([2]);
-      ?>
-      </li>
-     </ul>
-     <ul>
-      <li>
-      <?php
-      $weeks([3]);
-      ?>
-      </li>
-     </ul>
-     <ul>
-      <li>
-      <?php
-      $weeks([4]);
-      ?>
-      </li>
-     </ul>
-     <ul>
-      <li>
-      <?php
-      $weeks([5]);
-      ?>
-      </li>
-     </ul>
-        <ul>
-          <li>
-          <?php
-      $weeks([6]);
-      ?>
-          </li>
-        </ul>
-       <ul>
-        <li>
-        <?php
-      $weeks([7]);
-      ?>
-        </li>
-       </ul>
+  <ul>
+    <li><?= $weeks[0];?></li>
+    <li><?php echo $weeks[1];?></li>
+    <li><?php echo $weeks[2];?></li>
+    <li><?php echo $weeks[3];?></li>
+    <li><?php echo $weeks[4];?></li>
+    <li><?php echo $weeks[5];?></li>
+    <li><?php echo $weeks[6];?></li>
+  </ul>
        
 
    
