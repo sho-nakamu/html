@@ -11,13 +11,13 @@
 <?php $monee ='110円';?>
 <?php $monn ='200円';?>
 <?php $moom ='220円';?>
-
+<?php define('TITLE','消費税') ?>
 
 
   
 <?="現在、消費税は{$money}です"; ?><br>
 <?="鉛筆が{$mone}で税込{$monee}です";?><br>
-<?="消しゴムが{$monn}で税込み{$moom}です";?>
+<?="消しゴムが{$monn}で税込{$moom}です";?>
 
 </body>
 </html>
