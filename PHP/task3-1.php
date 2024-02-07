@@ -6,6 +6,4 @@
   <title>PHP練習</title>
 </head>
 <body>
-  
-</body>
-</html>
+  <?php
