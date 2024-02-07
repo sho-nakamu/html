@@ -34,7 +34,6 @@
       <td><?=$num3?></td>
       <td><?=$num4?></td>
       <td><?=$num4*$num?></td>
-
     </tr>
 
   </table>
