@@ -6,16 +6,17 @@
   <title>PHP演習</title>
 </head>
 <body>
-<?php $money ='10%';?>
-<?php $mone ='100円';?>
-<?php $monee ='110円';?>
-<?php $monn ='200円';?>
-<?php $moom ='220円';?>
-<?php define('TITLE','消費税') ?>
 
+<?php 
+  define('TAX','10%');
+  $mone ='100円';
+  $monee ='110円';
+  $monn ='200円';
+  $moom ='220円';
+?>
 
   
-<?="現在、消費税は{$money}です";?><br>
+<?="現在、消費税はTAXです";?><br>
 <?="鉛筆が{$mone}で税込{$monee}です";?><br>
 <?="消しゴムが{$monn}で税込{$moom}です";?>
 </body>

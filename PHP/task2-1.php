@@ -11,12 +11,12 @@
   ?>
   <ul>
     <li><?= $weeks[0];?></li>
-    <li><?php echo $weeks[1];?></li>
-    <li><?php echo $weeks[2];?></li>
-    <li><?php echo $weeks[3];?></li>
-    <li><?php echo $weeks[4];?></li>
-    <li><?php echo $weeks[5];?></li>
-    <li><?php echo $weeks[6];?></li>
+    <li><?= $weeks[1];?></li>
+    <li><?= $weeks[2];?></li>
+    <li><?= $weeks[3];?></li>
+    <li><?= $weeks[4];?></li>
+    <li><?= $weeks[5];?></li>
+    <li><?= $weeks[6];?></li>
   </ul>
        
 
