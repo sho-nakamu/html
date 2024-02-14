@@ -7,18 +7,16 @@
 </head>
 <body>
   <?php
-  $a =mt_rand('大凶','凶','吉','中吉','大吉');
-  ?>
-  <?
-  if ($a === 5) {
-    $judeg ="$a 今日の運勢はです";
-  } elseif($a >= "中吉"){
-    $judeg ="$a 今日の運勢はです"; 
-  }elseif($a >= "吉"){
-   $judeg ="$a 今日の運勢はです";
-} else{
-  $judeg =$a ."今日の運勢はです";
-}
+$fortunes = array(
+  '大吉',   // 20% の確率
+  '中吉',   // 30% の確率
+  '吉',   // 30% の確率
+  '大凶',   // 5% の確率
+  '凶'      // 15% の確率
+);
+$randomIndex = mt_rand(0, count($fortunes) - 1);
+$selectedFortune = $fortunes[$randomIndex];
+echo 'あなたの今日の運命は: ' . $selectedFortune;
 ?>
 </body>
 </html>
