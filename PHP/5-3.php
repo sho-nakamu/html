@@ -6,15 +6,17 @@
   <title>PHP練習</title>
 </head>
 <body>
-  <?
-  $list =array ["商品","価格","税込価格"];
-  $pen  =["鉛筆",100,110];
-  $gomu =["消しゴム",200,220];
-  $sasi =["定規",300,330];
-  foreach ($arr as $data){
-    print ($data);
-    print("&lt;br>");
+  <?php
+  $list = ["商品","鉛筆","消しゴム","定規"];;
+  foreach ($list as $list){
+    echo $list,"<br>";
   }
+
+  $a = ["価格",100,200,300];;
+  foreach ($a as $a){
+    echo $a,"<br>";
+  }
+
   ?>
 </body>
 </html>
