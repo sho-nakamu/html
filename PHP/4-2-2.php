@@ -7,17 +7,16 @@
 </head>
 <body>
 <?php
-  $a =mt_rand('春','夏','秋','冬');
-  ?>
-  <?
-  if ($a ===1, 12) {
-    $judeg ="$a 月はの季節です";
-  } elseif($a >= 12){
-    $judeg ="$a 月はの季節です"; 
-  }elseif($a >= 5){
-   $judeg ="$a 月はの季節です";
-} else{
-  $judeg =$a ."月はの季節です";
+$randomMonth = rand(1, 12);
+
+if ($randomMonth >= 3 && $randomMonth <= 5) {
+    echo "{$randomMonth}月は春です。";
+} elseif ($randomMonth >= 6 && $randomMonth <= 8) {
+    echo "{$randomMonth}月は夏です。";
+} elseif ($randomMonth >= 9 && $randomMonth <= 11) {
+    echo "{$randomMonth}月は秋です。";
+} else {
+    echo "{$randomMonth}月は冬です。";
 }
 ?>
 </body>
