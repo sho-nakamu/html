@@ -6,17 +6,17 @@
   <title>Document</title>
 </head>
 <body>
-  <?php
-$fortunes = array(
-  '大吉',   // 20% の確率
-  '中吉',   // 30% の確率
-  '吉',   // 30% の確率
-  '大凶',   // 5% の確率
-  '凶'      // 15% の確率
-);
-$randomIndex = mt_rand(0, count($fortunes) - 1);
-$selectedFortune = $fortunes[$randomIndex];
-echo 'あなたの今日の運命は: ' . $selectedFortune;
-?>
+<?php $probability = mt_rand( 1, 100 );?>
+<?php if ($probability == 5):?>
+<p>今日の運勢は"大凶"です</p>
+<?php elseif ($probability >= 6 && $probability <= 20):?>
+<p>今日の運勢は"凶"です</p>
+<?php elseif ($probability >= 21&& $probability <= 50):?>
+<p>今日の運勢は"吉"です</p>
+<?php elseif ($probability >= 51 && $probability <= 80):?>
+<p>今日の運勢は"中吉"です</p>
+<?php elseif ($probability >= 81 && $probability <= 100):?>
+<p>今日の運勢は"大吉"です</p>
+<?php endif;?>
 </body>
 </html>
