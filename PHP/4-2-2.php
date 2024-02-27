@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php
-$randomMonth = rand(1, 12);
+$randomMonth = mt_rand(1, 12);
 
 if ($randomMonth >= 3 && $randomMonth <= 5) {
     echo "{$randomMonth}月は春です。";

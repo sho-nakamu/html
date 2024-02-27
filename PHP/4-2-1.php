@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php
-$randomMonth = rand(1, 12);
+$randomMonth = mt_rand(1, 12);
 switch ($randomMonth) {
     case 1:
     case 2:
