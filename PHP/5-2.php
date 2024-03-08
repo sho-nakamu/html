@@ -13,9 +13,10 @@ $weekdays = ['月曜日', '火曜日', '水曜日', '木曜日', '金曜日', '�
 foreach ($weekdays as $day) {
     echo $day . "<br>";
 }
-for ($i=0; $i < count($weekdays) ; $i++) { 
+for ($i=0; $i <7 ; $i++) { 
   echo $weekdays[$i] . "<br>";
 }
+echo count($weekdays);
 ?>
 </body>
 </html>
